@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+    font-family: Roboto;
+    /* border: 1px solid red; */
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+header {
+    background-color: #222222;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    word-spacing: 6px;
+    left: 1020px;
+    top: 35px;
+}
+
+main{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caja 1: Delivery */
+
+.delivery{
+    background-image: url(../img/delivery.jpg);
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 5px;
+    width: 40vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ff0002;
+    margin-right: 5px;
+}
+
+.delivery span{
+    color: #fff;
+}
+
+.delivery p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+/* ---- */
+
+/* Caja 2: Podio */
+
+.podio{
+    background-color: #fff;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    margin-left: 5px;
+}
+
+.podio h3{
+    color:#ff0002;
+    font-size: 35px;
+    margin-top: 50px;
+    position:relative;
+    right: 50px
+}
+
+.podio div p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.podio div ol{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.podio div{
+    margin-top: 150px;
+    margin-left: 40px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.podio img{
+    width: 7vw;
+    margin-top: 150px;
+    position: relative;
+    top: 20px;
+    right: 80px
+}
+
+/* ---- */
+
+footer{
+    margin-top: 50px;
+    background-color: #222222;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+footer div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+    line-height: 32px;
+}
+
+footer a{
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+.logopizza{
+    position: absolute;
+    top: 35px;
+    left: 1300px;
+}
